@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Satisfy&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background: url(img/fondo.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    font-family: 'Satisfy' 
+}
+
+.content-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.content-parrafo{
+    width: 60%;
+    height: 600px;
+    background-color: bisque;
+    position: relative;
+}
+
+.esquinas-superior-izquierda{
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    background-color: brown;
+    rotate: 45deg;
+    top: -20px;
+}
+
+.esquinas-superior-derecha{
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    background-color: brown;
+    rotate: 135deg;
+    top: -20px;
+    right: 0;
+}
+
+.esquinas-inferior-derecha{
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    background-color: brown;
+    rotate: 45deg;
+    right: 0;
+    bottom: -20px;
+}
+
+.esquinas-inferior-izquierda{
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    background-color: brown;
+    rotate: 135deg;
+    bottom: -20px;
+}
+
+.img-superior-izquierda img{
+    height: 150px;
+    position: absolute;
+    top: -30px;
+    left: -20px;
+}
+
+.img-superior-derecha img{
+    height: 150px;
+    position: absolute;
+    top: -15px;
+    right: -60px;
+}
+
+.img-inferior-derecha img{
+    height: 230px;
+    position: absolute;
+    right: -30px;
+    bottom: -20px;
+    rotate: 25deg;
+}
+
+.img-inferior-izquierda img{
+    height: 200px;
+    position: absolute;
+    bottom: -20px;
+    left: -15px;
+    rotate: -15deg;
+}
+
+.parrafo{
+    margin: 30px;
+    padding: 30px;
+    height: 460px;
+    font-size: 25px;
+    text-align: center;
+    background-color:burlywood;
+    color: black;
+}
+
+.content-extra{
+    margin: 45px;
+}
